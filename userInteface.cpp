@@ -40,7 +40,7 @@ void userInterface::successMessage(int time)
     deleteLine(defaultX, defaultY - 1);
     deleteLine(defaultX, defaultY + 1);
     deleteLine(defaultX, defaultY);
-    cout << " Операция завершилась";
+    cout << " Успех?";
     Sleep(time);
     deleteLine(defaultX, defaultY);
 }
