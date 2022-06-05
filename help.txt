@@ -1,0 +1,2 @@
+g++ *.cpp -fPIC -static -static-libgcc -static-libstdc++ -o sD
+g++ *.cpp -o sD
